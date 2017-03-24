@@ -9,3 +9,11 @@ Para rodar esse projeto é necessário instalar as dependências do NPM, para is
 $ cd functions/
 $ npm install
 ```
+## Fonts
+
+* **Leelawadee** : Menu/Botões/parágrafos
+* **Permanent Market** : Texto banner
+* **Baloo Bhai** : Texto banner
+* **Book Antiqua** : Texto pré título
+* **League Gothic** : Títulos
+* **Montserrat** : Títulos Reviews/elementos do footer
