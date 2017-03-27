@@ -2,68 +2,32 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Welcome to Firebase Hosting</title>
-    <style media="screen">
-      body {
-        font-family: Roboto, Arial, sans-serif;
-        background: #ECEFF1;
-        color: rgba(0,0,0,0.87);
-      }
-
-      a {
-        color: rgb(3,155,229);
-      }
-
-      #message {
-        max-width: 400px;
-        margin: 40px auto;
-        box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2),0 1px 1px 0 rgba(0,0,0,0.14),0 2px 1px -1px rgba(0,0,0,0.12);
-        border-radius: 2px;
-        background: white;
-        padding: 16px 24px;
-      }
-
-      #message h1 {
-        font-size: 22px;
-        font-weight: 500;
-        text-align: center;
-        margin: 0 0 16px;
-      }
-
-      #message p {
-        font-weight: 300;
-        line-height: 150%;
-      }
-
-      #message ul {
-        list-style: none;
-        margin: 16px 0 0;
-        padding: 0;
-        text-align: center;
-      }
-
-      #message li a {
-        display: inline-block;
-        padding: 8px;
-        text-transform: uppercase;
-        text-decoration: none;
-        font-weight: 500;
-        background: rgb(3,155,229);
-        color: white;
-        border: 1px solid rgb(3,155,229);
-        border-radius: 3px;
-        font-size: 14px;
-        box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
-      }
-    </style>
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet/less" type="text/css" href="css/style.less" />
+    <script src="../bower_components/less/dist/less.min.js"></script>
+    <title>Forest</title>
+    
   </head>
   <body>
-    <div id="message">
-      <h1>Site em construção</h1>
-      <p><center>Aguarde em breve o site estará no ar</center></p>
-      <ul>
-        <li><a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a></li>
-      </ul>
-    </div>
+    <header>
+      <div class="container">
+        <div class="menu">
+          <menu>
+            <menuitem label="home">Home</menuitem>
+            <menuitem label="destinations">Destinations</menuitem>
+            <menuitem label="gallery">Gallery</menuitem>
+            <img src="img/logo.png" alt="logo forest">
+            <menuitem label="review">Review</menuitem>
+            <menuitem label="explore">Explore</menuitem>
+            <menuitem label="contact">Contact</menuitem>
+          </menu>
+        </div>
+        <div class="banner">
+          <h1>Road to amazônia <b>Brazil</b></h1>
+          <a href="#">Start Booking</a>
+        </div>
+      </div>  
+    </header>
   </body>
+
 </html>

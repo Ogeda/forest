@@ -1,0 +1,22 @@
+{
+  "name": "forest",
+  "homepage": "https://github.com/Ogeda/forest",
+  "authors": [
+    "Brenno Ogeda <brennoogeda@gmail.com>"
+  ],
+  "description": "Site forest",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "boostrap#^3.3.7",
+    "less": "^2.7.2"
+  }
+}
