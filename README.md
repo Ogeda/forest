@@ -17,3 +17,6 @@ $ npm install
 * **Book Antiqua** : Texto pré título
 * **League Gothic** : Títulos
 * **Montserrat** : Títulos Reviews/elementos do footer
+
+## Referencias
+https://tympanus.net/codrops/2013/10/03/a-collection-of-separator-styles
