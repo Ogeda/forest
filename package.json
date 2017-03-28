@@ -1,0 +1,25 @@
+{
+  "name": "forest",
+  "version": "1.0.0",
+  "description": "Site forest",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "bower": "^1.8.0",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ogeda/forest.git"
+  },
+  "author": "Brenno Ogeda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ogeda/forest/issues"
+  },
+  "homepage": "https://github.com/Ogeda/forest#readme"
+}
